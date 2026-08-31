@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+.coverage
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments and packaging output
+.venv/
+venv/
+build/
+dist/
+*.egg-info/
+
+# Generated GMA archives and interrupted writes
+*.gma
+*.part
+.gmapack-*
+
+# Local configuration
+.env
+.env.*
+!.env.example
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini

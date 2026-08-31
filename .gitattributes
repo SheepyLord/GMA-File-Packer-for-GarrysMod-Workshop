@@ -1,2 +1,8 @@
-# Auto detect text files and perform LF normalization
+# Normalize repository text while keeping the Windows launcher native.
 * text=auto
+*.py text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.bat text eol=crlf
+*.gma binary
